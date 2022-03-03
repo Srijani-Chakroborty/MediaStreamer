@@ -1,6 +1,7 @@
 # MediaStreamer
 MediaStreamer is a Responsive OTT home page with HTML and Video.js media player.
-check it here: https://srijani-chakroborty.github.io/MediaStreamer/
+Check it here: https://srijani-chakroborty.github.io/MediaStreamer/
+
 <a href="https://github.com/Srijani-Chakroborty/MediaStreamer/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="license"/></a>
 
 # Screenshot
