@@ -1,7 +1,7 @@
 # OTT-Home-Page
 MediaStreamer is a Responsive OTT home page with HTML and Video.js media player.
-check it here: https://srijani-chakroborty.github.io/OTT-Home-Page/
-<a href="https://github.com/Srijani-Chakroborty/Online-Banking-website/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="license"/></a>
+check it here: https://srijani-chakroborty.github.io/MediaStreamer/
+<a href="https://github.com/Srijani-Chakroborty/MediaStreamer/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="license"/></a>
 
 # Screenshot
 ![Screenshot (161)](https://user-images.githubusercontent.com/85583566/156618320-c7797200-6b37-4114-8519-eaa732aeeb28.png)
