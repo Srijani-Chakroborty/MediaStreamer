@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+</head>
+<body>
+        <nav class="h-nav">
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <div class="logo">
+                <p>Media<span>Streamer</span></p>
+            </div>
+            <div class="search-box v-nav">
+                <input class="search-txt" type="text" name="" placeholder="Type to search...">
+                <a class="search-btn" href="#">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </div>
+            <ul class="v-nav">
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-cloud-upload" aria-hidden="true"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa fa-bell" aria-hidden="true"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="title">Sign Up</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="title">Log in</span>
+                    </a>
+                </li>
+            </ul>
+            <div class=mobile-menu>
+                <span class="icon"><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a></span>
+            </div>
+        </nav>
+
+        <section id="home">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="img1" checked>
+                <input type="radio" name="radio-btn" id="img2">
+                <input type="radio" name="radio-btn" id="img3">
+                <input type="radio" name="radio-btn" id="img4">
+
+                <img src="img1.jpg" class="m1" alt="img1">
+                <img src="img2.jpg" class="m2" alt="img2">  
+                <img src="img3.jpg" class="m3" alt="img3">
+                <img src="img4.jpg" class="m4" alt="img4">
+            </div>
+            <div class="auto-navi">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <div class="dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+            </div>
+        </div>
+    </section>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <span class="title">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-check" aria-hidden="true"></i></span>
+                    <span class="title">Subscriptions</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" >
+                    <span class="icon"><i class="fa fa-sort-desc first" aria-hidden="true"></i></span>
+                    <span class="title">Genre</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+                    <span class="title">Library</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-history" aria-hidden="true"></i></span>
+                    <span class="title">History</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+                    <span class="title">My Videos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                    <span class="title">Liked Videos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                    <span class="title">Settings</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section id="videos">
+    <div>
+        <video src="video1.webm" width="320" height="240" autoplay controls></video>
+        <video src="video2.mp4" width="320" height="240" autoplay controls></video>
+        <video src="video3.mp4" width="320" height="240" autoplay controls></video>
+    </div>
+    </section>
+    <section id="jvideos">
+        <div>
+            <video class="video-js vjs-big-play-centered" controls preload="auto" width="320" height="240" data-setup="{}" >
+                <source src="video4.webm" type="video/webm">
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                  </p>
+            </video>
+        </div>
+        <div>
+            <video class="video-js vjs-big-play-centered" controls preload="auto" width="320" height="240" data-setup="{}">
+                <source src="video5.webm" type="video/webm">
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                  </p>
+            </video>
+        </div>
+        <div>
+            <video class="video-js vjs-big-play-centered" controls preload="auto" width="320" height="240" data-setup="{}">
+                <source src="video6.mp4" type="video/mp4">
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                  </p>
+            </video>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            Copyright &copy; www.MediaStreamer.com. All rights reserved!
+        </div>
+    </footer>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+    <script type="text/javascript">
+        mobile=document.querySelector('.mobile-menu')
+        navbar=document.querySelector('nav')
+        search=document.querySelector('.search-box')
+        navlist=document.querySelector('nav ul')
+
+        mobile.addEventListener('click',()=>{
+            search.classList.toggle('v-nav');
+            navlist.classList.toggle('v-nav');
+            navbar.classList.toggle('h-nav');
+        })
+
+
+
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('img'+counter).checked=true;
+            counter++;
+            if(counter>4){
+                counter=1;
+            }
+        },3000);
+
+        function toggleMenu(){
+            let navigation=document.querySelector('.navigation');
+            let toggle=document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
